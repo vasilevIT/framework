@@ -1,5 +1,5 @@
 {
-    "name": "goaop/framework",
+    "name": "vasilevit/framework",
     "description": "Framework for aspect-oriented programming in PHP.",
 
     "type": "library",
@@ -11,7 +11,7 @@
         "php": "^7.4.0",
         "doctrine/annotations": "^1.11.1",
         "doctrine/cache": "^1.10",
-        "goaop/parser-reflection": "^3.0.1",
+        "vasilevit/parser-reflection": "*",
         "jakubledl/dissect": "~1.0",
         "laminas/laminas-code": "^4.0",
         "symfony/finder": "^4.4|^5.1"
