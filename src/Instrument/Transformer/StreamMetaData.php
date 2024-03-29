@@ -99,7 +99,7 @@ class StreamMetaData
             $this->$mappedKey = $value;
         }
         $this->syntaxTree = ReflectionEngine::parseFile($this->uri, $source);
-        $this->setTokenStreamFromRawTokens(ReflectionEngine::getLexer()->getTokens());
+        $this->setSource($source);
     }
 
     /**
