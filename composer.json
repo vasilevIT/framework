@@ -1,5 +1,5 @@
 {
-    "name": "vasilevit/framework",
+    "name": "vasilevit/goaop_framework",
     "description": "Framework for aspect-oriented programming in PHP.",
 
     "type": "library",
